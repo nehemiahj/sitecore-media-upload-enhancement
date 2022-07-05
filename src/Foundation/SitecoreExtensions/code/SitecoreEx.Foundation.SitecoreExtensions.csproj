@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+	<ApplicationIcon />
+	<OutputType>Library</OutputType>
+	<StartupObject />
+	<Authors>Nehemiah Jeyakumar</Authors>
+	<Company>Nehemiah</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Kernel" Version="10.2.0" />
+	<PackageReference Include="Sitecore.Client" Version="10.2.0" />
+  </ItemGroup>
+</Project>
